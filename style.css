@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing {
+    width: 100%;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px auto;
+}
+
+.header {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.avengers__logo {
+    height: 36px;
+    width: 36px;
+}
+
+.landing__row {
+    height: 90vh;
+}
+
+.landing__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.search__wrapper {
+    display: flex;
+    width: 480px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 24px;
+    background-color: #e52626;
+}
+
+.search__input {
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.fa-magnifying-glass {
+    color: white;
+    margin-left: 12px;
+}
+
+.search__results--row {
+    display: flex;
+    flex-direction: column;
+}
+
+.search__filter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.results__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.result__card {
+    width: calc(100/3);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin-bottom: 24px;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: #e52626;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    background-color: white;
+}
