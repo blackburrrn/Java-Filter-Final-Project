@@ -13,87 +13,89 @@
     <section class="landing">
         <div class="header">
             <div class="row nav__row">
-                <div class="logo__wrapper">
-                    <img class="avengers__logo" src="./Assets/avengers__logo.png" alt="Avengers Logo">
-                </div>
                 <div class="nav__links">
                     <a href="#">Home</a>
-                    <a href="#">Find Your Car</a>
+                    <a href="#">Find Movie</a>
                     <a href="#">Contact</a>
                 </div>
             </div>
         </div>
-</header>
-<body>
         <div class="row landing__row">
             <div class="landing__content">
-                <h1>Find Your Dream Car</h1>
+                <h1>Assemble Your Movie Night</h1>
                 <div class="search__wrapper">
-                <input class="search__input" type="text" placeholder="Search for your car...">
+                <input class="search__input" type="text" placeholder="Search for your movie...">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
         </div>
     </section>
+</header>
+<body>
     <section class="search__results">
             <div class="row search__results--row">
                 <div class="search__filter">
                 <h2>Search Results</h2>
                     <div class="filer__wrapper">
-                        <select name="Filter" id="filter">
+                        <select id="filter" onchange="filterMovies(event)">
                             <option value disabled selected>Filter</option>
-                            <option value="price-low">Title: A - Z</option>
-                            <option value="price-high">Title: Z - A</option>
-                            <option value="year-new">Year: Newest First</option>
-                            <option value="year-old">Year: Oldest First</option>
+                            <option value="a_to_z">Title: A - Z</option>
+                            <option value="z_to_a">Title: Z - A</option>
+                            <option value="new_to_old">Year: Newest First</option>
+                            <option value="old_to_new">Year: Oldest First</option>
                         </select>
                     </div>
                 </div>
-                    <div class="results__wrapper">
-                        <div class="result__card">
-                            <img src="" alt="">
+                    <div class="movies__wrapper">
+                        <div class="movie__card--wrapper">
+                        <div class="movie__card">
+                            <img class="movie__poster" src="" alt="">
                             <h3>Title 1</h3>
                             <p>Year</p>
-                            <img src="" alt="">
                         </div>
-                        <div class="result__card">
-                            <img src="" alt="">
+                        </div>
+                        <div class="movie__card--wrapper">
+                        <div class="movie__card">
+                            <img class="movie__poster" src="" alt="">
                             <h3>Title 1</h3>
                             <p>Year</p>
-                            <img src="" alt="">
                         </div>
-                        <div class="result__card">
-                            <img src="" alt="">
+                        </div>
+                        <div class="movie__card--wrapper">
+                        <div class="movie__card">
+                            <img class="movie__poster" src="" alt="">
                             <h3>Title 1</h3>
                             <p>Year</p>
-                            <img src="" alt="">
                         </div>
-                        <div class="result__card">
-                            <img src="" alt="">
+                        </div>
+                        <div class="movie__card--wrapper">
+                        <div class="movie__card">
+                            <img class="movie__poster" src="" alt="">
                             <h3>Title 1</h3>
                             <p>Year</p>
-                            <img src="" alt="">
                         </div>
-                        <div class="result__card">
-                            <img src="" alt="">
+                        </div>
+                        <div class="movie__card--wrapper">
+                        <div class="movie__card">
+                            <img class="movie__poster" src="" alt="">
                             <h3>Title 1</h3>
                             <p>Year</p>
-                            <img src="" alt="">
                         </div>
-                        <div class="result__card">
-                            <img src="" alt="">
+                        </div>
+                        <div class="movie__card--wrapper">
+                        <div class="movie__card">
+                            <img class="movie__poster" src="" alt="">
                             <h3>Title 1</h3>
                             <p>Year</p>
-                            <img src="" alt="">
+                        </div>  
                         </div>
-                        
                     </div>
             </div>
         </section>
-        <section class="footer">
-            <p class="footer__copyright">© 2026 Java Filter Final Project. Jonathan Blackburn.</p>
-        </section>
-    
-
 </body>
+<footer>
+    <section class="footer">
+        <p class="footer__copyright">© 2026 Java Filter Final Project. Jonathan Blackburn.</p>
+    </section>
+</footer>
 </html>
